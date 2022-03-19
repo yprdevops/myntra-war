@@ -64,12 +64,11 @@
       </plugins>
     </pluginManagement>
   </build>
-  <distributionManagement>    
-  <snapshotRepository>
+    <distributionManagement>
+    <snapshotRepository>
       <id>depolyment</id>
 	  <name>snapshot releases</name>
-      <url>http://3.110.49.191:8081/repository/maven-snapshots/</url>	
-  </snapshotRepository>
-  </distributionManagement>
-  
+      <url>/</url>
+    </snapshotRepository>
+    </distributionManagement>
   </project>
